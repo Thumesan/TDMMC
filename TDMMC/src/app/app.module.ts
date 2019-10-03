@@ -5,13 +5,19 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainComponent } from './main/main.component';
 import { ServicesComponent } from './services/services.component';
+import { BookingsComponent } from './bookings/bookings.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     MainComponent,
-    ServicesComponent
+    ServicesComponent,
+    BookingsComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
